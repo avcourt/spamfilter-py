@@ -52,8 +52,6 @@ class Spamfilter():
         else:
             return (1.0 / self.uniq_h_toks) / (self.total_h_toks + 1)
 
-# todo jsut pass in a lsit of tokens, instead of doing
-    #  it twice for each spam and ham
     def prob_msg_spam(self, filepath):
         tokens = file_tokens(filepath)
         sm = 0
@@ -99,9 +97,6 @@ class Spamfilter():
         print('Total ham:  \t' + str(self.count_ham))
         print("Percentage correctly classified: " + str(correct*100))
 
-        # prints info about frequency table and data analyzed
-
-    # v[0] + v[1] < min_freq || ( v[2] / (v[2] + v[3])).between?(0.45, 0.55)
     def clean_table(self, min_freq):
         old_num_tokens = len(self.freq_tab)
 
@@ -113,8 +108,6 @@ class Spamfilter():
         for k in rm_keys:
             print("deleting " + str(k) + " from freq table in clean()")
             del self.freq_tab[k]
-
-
 
     def print_table_info(self):
         print("\n\nTRAINING AND FREQUENCY TABLE INFO")
@@ -161,7 +154,7 @@ def find_frequency(dir_name):
 
 
 spam_filter = Spamfilter('emails/training/')
-spam_filter.clean_table(min_freq=4)
+# spam_filter.clean_table(min_freq=4)
 spam_filter.classify_all("emails/testing/spam/", 'spam')
 spam_filter.classify_all("emails/testing/ham/", 'ham')
 spam_filter.print_table_info()
