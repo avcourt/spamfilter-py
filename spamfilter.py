@@ -16,7 +16,7 @@ class Spamfilter():
         self.total_h_toks = sum(self.ham_table.values())
         self.total_s_toks = sum(self.spam_table.values())
         self.tok_arr = sorted(list(self.ham_table.keys()) + list(self.spam_table.keys()))
-        self.frequency_table = self.create_frequency_table()
+        self.freq_tab = self.create_frequency_table()
         self.file_count = 0
         self.count_spam = 0
         self.count_ham = 0
@@ -39,14 +39,14 @@ class Spamfilter():
         return freq_table
 
     def get_prob_spam(self, token):
-        val = self.frequency_table.get(token)
+        val = self.freq_tab.get(token)
         if val is not None:
             return val['prob_spam']
         else:
             return (1.0 / self.uniq_s_toks) / (self.total_s_toks + 1)
 
     def get_prob_ham(self, token):
-        val = self.frequency_table.get(token)
+        val = self.freq_tab.get(token)
         if val is not None:
             return val['prob_ham']
         else:
@@ -85,7 +85,7 @@ class Spamfilter():
         self.file_count = 0
         self.count_spam = 0
         self.count_ham = 0
-        print("\nClassifying all emails found in directory:")
+        print("\nClassifying all emails found in directory: " + dir_path)
         filenames = os.listdir(dir_path)  # array of filenames in directory
         for f in filenames:
             self.classify(dir_path + f)
@@ -94,9 +94,27 @@ class Spamfilter():
             correct = self.count_spam/float(self.file_count)
         else:
             correct = self.count_ham/float(self.file_count)
-        print("Percentage correctly classified:" + str(correct*100))
+
+        print('Total spam: \t' + str(self.count_spam))
+        print('Total ham:  \t' + str(self.count_ham))
+        print("Percentage correctly classified: " + str(correct*100))
 
         # prints info about frequency table and data analyzed
+
+    # v[0] + v[1] < min_freq || ( v[2] / (v[2] + v[3])).between?(0.45, 0.55)
+    def clean_table(self, min_freq):
+        old_num_tokens = len(self.freq_tab)
+
+        rm_keys = []
+        for k, v in self.freq_tab.items():
+            if (v['spam_freq'] + v['ham_freq'] < min_freq or
+                    0.45 < (v['prob_spam'] / (v['prob_spam'] + v['prob_ham'])) < 0.55):
+                rm_keys.append(k)
+        for k in rm_keys:
+            print("deleting " + str(k) + " from freq table in clean()")
+            del self.freq_tab[k]
+
+
 
     def print_table_info(self):
         print("\n\nTRAINING AND FREQUENCY TABLE INFO")
@@ -106,7 +124,7 @@ class Spamfilter():
 
         print('Total unique tokens in all spam messages:' + str(len(self.spam_table)))
         print('Total unique tokens in all ham messages:' + str(len(self.ham_table)))
-        print('Total unique tokens in all combined messages:' + str(len(self.frequency_table)))
+        print('Total unique tokens in all combined messages:' + str(len(self.freq_tab)))
         print('Total number of spam mails: ' + str(len(os.listdir('emails/testing/spam/'))))
         print('Total number of ham mails: ' + str(len(os.listdir('emails/testing/ham/'))))
         # print('Total tokens in spam emails: %36d\n'', @ total_s_toks)
@@ -143,6 +161,7 @@ def find_frequency(dir_name):
 
 
 spam_filter = Spamfilter('emails/training/')
+spam_filter.clean_table(min_freq=4)
 spam_filter.classify_all("emails/testing/spam/", 'spam')
 spam_filter.classify_all("emails/testing/ham/", 'ham')
 spam_filter.print_table_info()
