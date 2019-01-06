@@ -26,7 +26,6 @@ class Spamfilter():
     def create_frequency_table(self):
         freq_table = {}
         for tok in self.tok_arr:
-            print(tok)
             entry = {}
             s_freq = self.spam_table.get(tok, 0)
             entry['spam_freq'] = s_freq
@@ -80,6 +79,39 @@ class Spamfilter():
             self.ham_list.append(filepath)
             return False
 
+    def classify_all(self, dir_path, known_type):
+        self.ham_list = []
+        self.spam_list = []
+        self.file_count = 0
+        self.count_spam = 0
+        self.count_ham = 0
+        print("\nClassifying all emails found in directory:")
+        filenames = os.listdir(dir_path)  # array of filenames in directory
+        for f in filenames:
+            self.classify(dir_path + f)
+
+        if known_type == 'spam':
+            correct = self.count_spam/float(self.file_count)
+        else:
+            correct = self.count_ham/float(self.file_count)
+        print("Percentage correctly classified:" + str(correct*100))
+
+        # prints info about frequency table and data analyzed
+
+    def print_table_info(self):
+        print("\n\nTRAINING AND FREQUENCY TABLE INFO")
+
+        print("``````````````````````````````````")
+        print("``````````````````````````````````")
+
+        print('Total unique tokens in all spam messages:' + str(len(self.spam_table)))
+        print('Total unique tokens in all ham messages:' + str(len(self.ham_table)))
+        print('Total unique tokens in all combined messages:' + str(len(self.frequency_table)))
+        print('Total number of spam mails: ' + str(len(os.listdir('emails/testing/spam/'))))
+        print('Total number of ham mails: ' + str(len(os.listdir('emails/testing/ham/'))))
+        # print('Total tokens in spam emails: %36d\n'', @ total_s_toks)
+        # print('Total tokens in ham emails:  %36d\n'', @ total_h_toks)
+
 
 def tokens(str, tok_size=3):
     return [str[i:i+tok_size] for i in range(len(str) - tok_size + 1)]
@@ -104,42 +136,13 @@ def file_tokens(filepath):
 def find_frequency(dir_name):
     big_list = []
     filenames = os.listdir(dir_name)  # array of filenames in directory
-    # print(filenames)
+    print(filenames)
     for f in filenames:
         big_list.extend(file_tokens(dir_name + f))
     return big_list
 
 
-
-
-
-# count = dict(file_tokens('test2'))
-# pp.pprint(count)
-# print(os.listdir('./emails/training/ham/5467435763'))
-# pp.pprint(file_tokens(find_frequency('./small/')))
-
-# dir_name = 'emails/training/ham/'
-# list = find_frequency(dir_name)
-# print(list)
-# count = dict(Counter(list))
-# pp.pprint(count)
-# print(len(os.listdir(dir_name)))
-
-
-filter = Spamfilter('emails/training/')
-# pp.pprint(filter.ham_table)
-# print("\n\n^^^^^^^^^^^^^^^^^^^^^^^^^^")
-# pp.pprint(filter.spam_table)
-#
-# print(filter.total_h_toks)
-# print(filter.total_s_toks)
-# print(filter.uniq_h_toks)
-# print(filter.uniq_s_toks)
-# pp.pprint(filter.tok_arr)
-
-filter.create_frequency_table()
-pp.pprint(filter.frequency_table)
-print(filter.get_prob_ham('zones'))
-print(filter.get_prob_spam('zones'))
-
-print(filter.classify('emails/training/spam/01358.eb6c715f631ee3d22b135adb4dc4e67d'))
+spam_filter = Spamfilter('emails/training/')
+spam_filter.classify_all("emails/testing/spam/", 'spam')
+spam_filter.classify_all("emails/testing/ham/", 'ham')
+spam_filter.print_table_info()
