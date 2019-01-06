@@ -2,6 +2,7 @@ import os
 import re
 from collections import Counter
 import pprint as pp
+import math
 
 
 class Spamfilter():
@@ -16,38 +17,68 @@ class Spamfilter():
         self.total_s_toks = sum(self.spam_table.values())
         self.tok_arr = sorted(list(self.ham_table.keys()) + list(self.spam_table.keys()))
         self.frequency_table = self.create_frequency_table()
-
-    # def create_frequency_table(self):
-    #     freq_table = {}
-    #     for tok in self.tok_arr:
-    #         print(tok)
-    #         table_entry = []
-    #         spam_freq = self.spam_table.get(tok, 0)
-    #         table_entry.append(('spam_freq', spam_freq))
-    #         ham_freq = self.ham_table.get(tok, 0)
-    #         table_entry.append(('ham_freq', ham_freq))
-    #         prob_spam = (spam_freq + 1 / float(self.uniq_s_toks)) / (self.total_s_toks + 1)
-    #         table_entry.append(('prob_spam', prob_spam))
-    #         prob_ham = (ham_freq + 1 / float(self.uniq_h_toks)) / (self.total_h_toks + 1)
-    #         table_entry.append(('prob_ham', prob_ham))
-    #         freq_table[tok] = table_entry
-    #     return freq_table
+        self.file_count = 0
+        self.count_spam = 0
+        self.count_ham = 0
+        self.spam_list = []
+        self.ham_list = []
 
     def create_frequency_table(self):
         freq_table = {}
         for tok in self.tok_arr:
             print(tok)
-            table_entry = {}
-            spam_freq = self.spam_table.get(tok, 0)
-            table_entry['spam_freq'] = spam_freq
-            ham_freq = self.ham_table.get(tok, 0)
-            table_entry['ham_freq'] = ham_freq
-            prob_spam = (spam_freq + 1 / float(self.uniq_s_toks)) / (self.total_s_toks + 1)
-            table_entry['prob_spam'] = prob_spam
-            prob_ham = (ham_freq + 1 / float(self.uniq_h_toks)) / (self.total_h_toks + 1)
-            table_entry['prob_ham'] = prob_ham
-            freq_table[tok] = table_entry
+            entry = {}
+            s_freq = self.spam_table.get(tok, 0)
+            entry['spam_freq'] = s_freq
+            h_freq = self.ham_table.get(tok, 0)
+            entry['ham_freq'] = h_freq
+            s_prob = (s_freq + 1 / float(self.uniq_s_toks)) / (self.total_s_toks + 1)
+            entry['prob_spam'] = s_prob
+            h_prob = (h_freq + 1 / float(self.uniq_h_toks)) / (self.total_h_toks + 1)
+            entry['prob_ham'] = h_prob
+            freq_table[tok] = entry
         return freq_table
+
+    def get_prob_spam(self, token):
+        val = self.frequency_table.get(token)
+        if val is not None:
+            return val['prob_spam']
+        else:
+            return (1.0 / self.uniq_s_toks) / (self.total_s_toks + 1)
+
+    def get_prob_ham(self, token):
+        val = self.frequency_table.get(token)
+        if val is not None:
+            return val['prob_ham']
+        else:
+            return (1.0 / self.uniq_h_toks) / (self.total_h_toks + 1)
+
+# todo jsut pass in a lsit of tokens, instead of doing
+    #  it twice for each spam and ham
+    def prob_msg_spam(self, filepath):
+        tokens = file_tokens(filepath)
+        sm = 0
+        for tok in tokens:
+            sm += math.log10(self.get_prob_spam(tok))
+        return sm
+
+    def prob_msg_ham(self, filepath):
+        tokens = file_tokens(filepath)
+        sm = 0
+        for tok in tokens:
+            sm += math.log10(self.get_prob_ham(tok))
+        return sm
+
+    def classify(self, filepath):
+        self.file_count += 1
+        if self.prob_msg_spam(filepath) > self.prob_msg_ham(filepath):
+            self.count_spam += 1
+            self.spam_list.append(filepath)
+            return True
+        else:
+            self.count_ham += 1
+            self.ham_list.append(filepath)
+            return False
 
 
 def tokens(str, tok_size=3):
@@ -108,3 +139,7 @@ filter = Spamfilter('emails/training/')
 
 filter.create_frequency_table()
 pp.pprint(filter.frequency_table)
+print(filter.get_prob_ham('zones'))
+print(filter.get_prob_spam('zones'))
+
+print(filter.classify('emails/training/spam/01358.eb6c715f631ee3d22b135adb4dc4e67d'))

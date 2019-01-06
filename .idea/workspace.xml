@@ -2,519 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="810a4f49-90c1-4f19-9227-349d8ef5a03a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spam_filter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00003.19be8acd739ad589cd00d8425bac7115" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00004.864220c5b6930b209cc287c361c99af1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00009.371eca25b0169ce5cb4f71d3e07b9e2d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00010.145d22c053c1a0c410242e46c01635b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00016.bc1f434b566619637a0de033cd3380d1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00016.ef397cef16f8041242e3b6560e168053" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00018.3b6a8c5da4043f2a6a63a1ae12bd9824" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00018.6fee38026193b5adde4b56892a6f14bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00019.5322cb10d8819b39499924d852819c27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/0002.b3120c4bcbf3101e661161ee7efcb8bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00020.83ef024f76cc42b8245a683ed9b38406" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00021.607c41268c5b0d66e81b58713a66d12c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00023.0e033ed93f68fcb5aab26cbf511caf0e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00025.84faba510a966c90f6ca7658260a7e4c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00025.d685245bdc4444f44fa091e6620b20b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00027.4d456dd9ce0afde7629f94dc3034e0bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/00029.56d4310a82386b76b9e771523d571e67" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/0007.c75188382f64b090022fa3b095b020b0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/0010.4996141de3f21e858c22f88231a9f463" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/ham/0021.f8e73bdba7277d967af4d561f0402129" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/00002.9438920e9a55591b18e60d1ed37d992b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/00006.3ca1f399ccda5d897fecb8c57669a283" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/0002.24b47bb3ce90708ae29d0aec1da08610" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/0005.1f42bb885de0ef7fc5cd09d34dc2ba54" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01138.21608a055666b8a00c1945bb2a740190" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01139.ff436c8a190e4424c602ef5c78402c06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01150.c429b55e3a5834c74d18f9b0bfc968cd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01155.e8634e51df914973d548076958ed90b2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01157.0b96d63f8b171b5b5f8a872029371480" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01172.cc7a00858cafd43ad994a3f1a42a5434" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01174.701ed2374fd181a0a63c8bfbc52a911c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01181.9f4734afdec4aae228d20e63649253a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01189.5593d25cf7b731b1c9f3e708cd05c96b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01190.04029d5cadc5b15d91cfed47a7a2e94d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01193.7c4b9a0e900fdb7cafb86c1131f79a48" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01197.f88c038612948f3fa023ac83db2e2ce5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01200.6d388843b6ffefafaf7b3093ca28a740" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01207.c24e5ee957e060ad511b5d2b875ff222" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01209.01df2f8f68a70062085ef787973f9ba0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01210.3315bbc34ab0c51f53ee13e0dc6ccaec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01225.a07c90bc24b619d5e8b786675dc2d118" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01229.bec63972cefbe62bb371ad659cd8563a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01231.2a56f1f52d4da9f83870deb4b7e68acb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01237.245ac1766016b756a3ddb3b463cc9645" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01238.32c2cef2a001f81d237017d243bad8e4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01240.7d6ae3682a3dd3fe457516b188eb105c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01246.d0ee9c7ebf9d953b21de9414cc96c2f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01253.26e421b9623002d636c29f79f68a58fb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01259.b4dff1ed93bc931b271888cd42e41b85" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01260.fae84d2193ed2d65a14e2c8b612fb7fe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01264.52c303d4e65ae6c83bedb1dc8db0d0c7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01291.4fee8a2f5fb6dce4e775b054282b6a71" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01297.6899dd73603e94dcefaba9970c3cfb69" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01299.0eab794ad20a8b32dfa3d6e3fedc1b31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01307.270e0fd3d0f0a14a592fcc47f3696e05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01312.c19bb76293853f6c10871018cebbe8ca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01315.88a113666f60469492624820111ee3be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01319.ec67d39c89f4a5865b730879685f3092" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01322.ff3e699f59f732ca886de5873eef313e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01328.b23902de23cb3ca1f3334517282372b2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01332.f794e2c48ef6535153adde00b521ef6d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01335.ca70ab7f2d1accef8b3cf646e3004ef8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01336.cce700d418ddce6f5081cdcda625074f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01338.a67c3827402b4610bd2a6814cd8cd907" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01342.7f89acf56fb4398340a0b07481e3193f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01351.e960056da1502c90d40d598cdf37f359" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01352.875dff8a1fd32766be05e136950add70" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01355.a47c042a6e16456c5b49c18d5b3868cb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01357.531b966b657f95f04a9037ea7100aa9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01368.0fcb4c25d287618ec7cdf84822d3d405" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01375.b1a9c15e903adbc27bd2b5c033e1d29c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01379.0d39498608cd170bbbc8cd33ffd18e35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01383.a4e83a74006864de20f76d0193908a56" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01385.af7a1a172a6cd00ad09dc6adecb14cee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01387.84a80f5699b026b15455e803a471b88e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01396.e80a10644810bc2ae3c1b58c5fd38dfa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01399.2319643317e2c5193d574e40a71809c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/testing/spam/01400.b444b69845db2fa0a4693ca04e6ac5c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01707.46172a3da4e739c7b65a3b3aa3869e9d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01708.49621617c6fee0551ce210e30094898a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01709.f25ce16131a4a1e9b4eb4e04f748509a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01710.c86ae674674567c5779cfb7a30385e45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01711.95d3ab2beeba9b96666d25c09de2143f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01712.c20d5899b4b27415389a10cd4f400019" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01716.8e1547062c811ff9b62183ad65bf4ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01717.7b6864b6307973a30ec24e69fc4a466a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01718.049911b67a0ff546e80e2acc6bcbe6ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01719.a401ddc61fc3d89fbaee70ea107a9956" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01720.edac63c7227d89192cc41c922d689d22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01721.33f28d80618a37469e4530603d6f8b5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01722.d77de28865080535c4e108eada26ed24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01723.26284dbbc6f595fdc9c388008e5aa72c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01724.9dd46d474cc33df16c9443ac6759e679" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01725.80327e3b2580e1e277165899b2532871" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01726.1c598ff775a4de81c391eb9bb738d0c9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01728.0bbb7ccf73587c7f02655596e7fa6477" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/01729.01f5d745e5bca5dcb35f0f863f4b0bdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02042.c31b1794eb5e8972e312ef4b14fe3c9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02044.49050939c26d30dbc6f6c21bb5d20879" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02045.3c41ab8c1fc88e04173c456288628c63" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02046.4904dd6df6b17114aa4e41ed891d37a8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02047.58252091629643882c4fb2e260954c60" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02048.146a986ae719349d6b6e4d5f9c0e38bd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02050.180c2df32d19ed66c26e0cf69df96622" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02051.58e196144807bd76d7b77d4b7efb6d32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02052.b3ed6f4d14c22157fa06ea355abe575f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02054.56a00df5b128866454ef832ec5ce78a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02055.80f7eff41824e0337e453a988ceda994" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02056.7bc7703e40a24dda665d4ce7b0cba710" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02059.e7cb2f48474335029d7eb951c82722f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02060.0b202908cd60ea1f719c700ed73f2806" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02061.22bbc22474fdf08ca2fb5d8353675730" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02062.c7e072e021caef4d69db2422f117acff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02063.eb91377a959b437f6977f0db277f30e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02064.8479a2ccea9f9f503098cd53601ca0c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/02480.72714df60c9be29d6f7985c777cbfc13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1708.0c3b6a8fbd582be37cb1fc8438a3ed84" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1709.beab5cca12dcf10c94ed9ce7f8951444" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1710.d0eb0dff243846772b43c3b6e377b2be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1712.ac9408d8e56446c8bd0a917aed234b87" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1713.3572d2093ff4f9c24db5cf4a7a9a7ae6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1715.7e47339df52b3d0c131273f1c58ba4eb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1716.fabf67851c347abee56594b9873b2d9a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1718.dd3ab0a21ff132982fbde9b8712d5258" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1719.2b32c9b1de123d4084f9555e8bbfbfe1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1721.2f654b5e99867bebf86ebb0280fb8e48" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1722.0ace94ca1a8eebbca0c096f2bfc89cc3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1723.b0f1f64188b8bac77aacad3b27b749d5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1724.fd2c1f2000f8b5b8042872435656619d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1725.4b7434da4269db27bd237dde1d03db92" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1727.42ebaf7a8a31234ef70a9066b1579592" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1728.cbb5a97d679712664e7cc3025d05c1ca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/1729.f1819fca167a26d35e31087bf27324f8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2041.4b394c6659275d7d2a0b8b9b1c997d8c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2042.82efc2a52ba6bb772d106cea75485b08" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2043.17d3228812a027a1ffd1c5170b184178" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2044.44bf59ea8589daeadc7af5f5c4d7827a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2045.23236c16f102098247b10ca305a9a6b5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2047.4766cf419e857e8607dd61aa15a7ab3c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2048.9944a591b5263dcf5726e0217314f029" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2049.b39e5d6c944e14add62b71862b2f2d41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2051.e7d9645f8b4b87954a4445b9129a7ca5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2052.26af2a75e1e49e4ce02a01912ca86601" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2053.f61808e7e505202075cbcdb4fd4ef532" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2056.0fd1b3fc03eea7295b13b1a8ba785ce5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2057.678c692b49b657abde1a5fcb861dd37b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2058.223e1c8e29bf95617ce84cebf836351e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2060.1eed50ed5c2474a737bf37d43d713ead" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2061.19ee158fcad270f48386e9a54e903dac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2062.00a15e0970e59bea61ce471713af3f34" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2063.33de33891adeef24bbeead70e9682bd4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2479.a918c490f758e2421f35b66077f2699a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2480.d652d7fb8b29ab26269aa5668f3e0035" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/ham/2481.03fe35f728922f8cf6d9b69771da462e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01354.942feb599d3e244a238c28c9028d97fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01356.8d996c0bc08a47a90611de2e8a829048" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01358.eb6c715f631ee3d22b135adb4dc4e67d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01359.deafa1d42658c6624c6809a446b7f369" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01360.5bf908ff3e674f31061afcb8a6c17a8d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01361.1b094e93a9a83d77859dcbf6637455d1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01362.794d3043053407d8e0c075a9a71902bd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01363.85518bca7c7cb9f35e57f3adda762ac9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01364.b89de202e8d843d54ab7988af8599571" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01365.d90d27bbb210dbdc63ed704b00161315" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01366.35ed342f7df33799c8ba619098b174c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01367.d681bf8f9823da056b82da169d2d1715" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01369.8ea24235c6c50337d9dcd234e61a5132" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01370.38a1c6fbbad5804a9978112005535de1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01371.fd75cda79a01e9b7d11af36936463c0d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01372.5d236077d94148a0ca71751f8f0a2e58" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01373.c8c124454ee4d1b775ef7a436cede7c1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01374.b902d53d7f737be700d6de60a42122d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01376.73e738e4cd8121ce3dfb42d190b193c9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01377.17adb34fc692245ce301d3db0a3e80c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01378.73df5252cb71f89c885ad49b6ae5fa82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01380.fa9b4e89ba485def2921e01ae9fb7671" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01381.7f1f9f4b8ea24fee6b87dc1172177eaf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01382.37400f7a1f36cd45165c2a72a9ec8baa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01384.e23f94030a4393f0825eacd9de99eb31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01386.9398d616dfc3d67fb10e95d911768b39" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01388.dba0966da5886e99fab13981da6c3834" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01389.35f4d2a5f47c4b434434b3ca8dc5a924" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01390.271af498812d2f73c8c198fd4fda905e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01391.d84700fa88ef00525b05a2d9c64fa654" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01392.891b7eeda19704fc8a990e56e0b52f89" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01393.e7d7a58f2c561c6f71fe95c64a7f5f35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01394.a76cc347fac514441bef43e7a599fb55" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01395.cb33d1d72f42e4ab9268729917bf428b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01397.f75f0dd0dd923faefa3e9cc5ecb8c906" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails/training/spam/01398.8ca7045aae4184d56e8509dc5ad6d979" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small/test1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small/test2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spamfilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_spamfilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/activate.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/pip3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/python3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/easy-install.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/basecommand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/baseparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/build_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/cmdoptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/completion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/configuration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/freeze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/hash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/show.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/uninstall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/wheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/configuration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/locations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/models/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/freeze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/prepare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/pep425tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_uninstall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/resolve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/status_codes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/appdirs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/deprecation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/encoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/filesystem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/glibc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/hashes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/outdated.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/packaging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/setuptools_build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/temp_dir.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/typing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/ui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/bazaar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/git.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/mercurial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/subversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/wheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/appdirs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/_cmd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/adapter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/file_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/filewrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/heuristics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/serialize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/cacert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/big5freq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/big5prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/chardistribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/charsetgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/charsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cli/chardetect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/codingstatemachine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cp949prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/escprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/escsm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/eucjpprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euckrfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euckrprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euctwfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euctwprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/gb2312freq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/gb2312prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/hebrewprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/jisfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/jpcntx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langbulgarianmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langcyrillicmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langgreekmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langhebrewmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langhungarianmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langthaimodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langturkishmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/latin1prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcharsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcsgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcssm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sbcharsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sbcsgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sjisprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/universaldetector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/utf8prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/ansi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/ansitowin32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/initialise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/win32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/winterm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/shutil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/tarfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/manifest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/markers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/metadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/scripts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/wheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_ihatexml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_inputstream.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/datrie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/py.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/lint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/optionaltags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/sanitizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/whitespace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/html5parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/genshi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/sax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/dom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/etree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/dom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/etree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/genshi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/codec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/idnadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/intranges.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/package_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/uts46data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/ipaddress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/linklockfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/mkdirlockfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/pidlockfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/sqlitelockfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/symlinklockfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/fallback.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/__about__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/_structures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/markers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/requirements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/specifiers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pkg_resources/py31compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/spinner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pyparsing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/writer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/__version__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/_internal_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/adapters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/certs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/hooks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/packages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/sessions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/status_codes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/structures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/retrying.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/_collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/connectionpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/appengine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/securetransport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/socks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/filepost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/backports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/backports/makefile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ordered_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/poolmanager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/retry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/selectors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/timeout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/labels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/mklabels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools-39.1.0-py3.6.egg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spamfilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/spamfilter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -523,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/spam_filter$spamfilter.coverage" NAME="spamfilter Coverage Results" MODIFIED="1546754407697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spam_filter$spamfilter.coverage" NAME="spamfilter Coverage Results" MODIFIED="1546758041958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spam_filter$test_spamfilter.coverage" NAME="test_spamfilter Coverage Results" MODIFIED="1546732896826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
   <component name="FileEditorManager">
@@ -531,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spamfilter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="2156">
+              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -602,6 +90,19 @@
               <item name="spam_filter" type="b2602c69:ProjectViewProjectNode" />
               <item name="spam_filter" type="462c0819:PsiDirectoryNode" />
               <item name="emails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spam_filter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spam_filter" type="462c0819:PsiDirectoryNode" />
+              <item name="emails" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spam_filter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spam_filter" type="462c0819:PsiDirectoryNode" />
+              <item name="emails" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spam_filter" type="b2602c69:ProjectViewProjectNode" />
@@ -706,15 +207,16 @@
       <updated>1546630331238</updated>
       <workItem from="1546630332356" duration="2075000" />
       <workItem from="1546720724540" duration="7684000" />
-      <workItem from="1546733267783" duration="15098000" />
+      <workItem from="1546733267783" duration="18490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24857000" />
+    <option name="totallyTimeSpent" value="28249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="27" width="1280" height="1413" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15316045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -821,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spamfilter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="2156">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
