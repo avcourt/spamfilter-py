@@ -1,0 +1,28 @@
+I've been testing Razor, invoked from sendmail/procmail and so far it
+seems pretty copacetic. Last night's spam to the list provided a good test
+- the spam itself as well as several of the responses were flagged, as
+other list members reported.
+
+This morning I piped the messages out from pine, being careful to use the
+RAW mode, to razor-check -d. None of the messages come back as spam, even
+the spam. Since folks revoked the false positives, I understand why they
+would not come up, but not the spam itself, unless that also was revoked.
+
+Is this spam just a bad one to test against, or is there some setting in
+pine or razor that I am missing?
+
+-- 
+sc
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

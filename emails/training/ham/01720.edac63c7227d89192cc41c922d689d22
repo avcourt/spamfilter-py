@@ -1,3 +1,11 @@
+Return-Path: tim.one@comcast.net
+Delivery-Date: Sun Sep  8 20:48:13 2002
+From: tim.one@comcast.net (Tim Peters)
+Date: Sun, 08 Sep 2002 15:48:13 -0400
+Subject: [Spambayes] testing results
+In-Reply-To: <20020908172113.GA26741@glacier.arctrix.com>
+Message-ID: <LNBBLJKPBEHFEDALKOLCCEPKBCAB.tim.one@comcast.net>
+
 Neil trained a classifier using 3 sets with about 500 ham and spam in each.
 We're missing half his test run results due to a cmp.py bug (since fixed);
 the "before custom fiddling" figures on the 3 reported runs were:

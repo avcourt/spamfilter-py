@@ -1,3 +1,13 @@
+Return-Path: jeremy@alum.mit.edu
+Delivery-Date: Sat Sep  7 21:15:03 2002
+From: jeremy@alum.mit.edu (Jeremy Hylton)
+Date: Sat, 7 Sep 2002 16:15:03 -0400
+Subject: [Spambayes] understanding high false negative rate
+In-Reply-To: <LNBBLJKPBEHFEDALKOLCOENBBCAB.tim.one@comcast.net>
+References: <15738.13529.407748.635725@slothrop.zope.com>
+	<LNBBLJKPBEHFEDALKOLCOENBBCAB.tim.one@comcast.net>
+Message-ID: <15738.24135.294137.640570@slothrop.zope.com>
+
 Here's clarification of why I did:
 
 First test results using tokenizer.Tokenizer.tokenize_headers()

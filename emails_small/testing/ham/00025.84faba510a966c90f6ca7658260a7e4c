@@ -1,0 +1,50 @@
+Check out this. Its for compaq kit, but a pc's a pc ;--)
+
+http://www.geocities.com/rlcomp_1999/procedures/kickstart-rh70.html
+
+There are other articles too.
+
+Hope that helps,
+
+CW
+----------------
+How many Redhat admins out there use the redhat kickstart?
+If you don't use it, how do you install redhat on all your 
+workstations, do you do it by hand, with the cds?
+
+As we are looking at using Linux at work, I'm looking
+into setting up the kickstart. There doesn't seem to
+be a lot of documentation around about it.
+
+Does anybody know if it would be possible to do the following:
+Get the machine to boot using DHCP and read it's kickstart
+config file from teh DHCP server and in this config file
+have the machine configured to use a static IP, so that when
+the machine is rebooted it will come up with it's new IP.
+
+Also, There was no driver on the redhat network install flopopy
+for the network card in the machine I'm installing. This required
+me to uncompress the floppy image, loop mount it, add in the module
+for the network card and compress it all up again. I'm not going
+to be able to do this every time we get a new machine, I was
+wondering if instead of having a boot floppy, you could use a boot
+cdrom, but just for the purpose of having all the network card
+modules on the cdrom. I'd still want it to get the packages from
+an NFS server on the network.
+
+Any help with this would be greatly appreciated,
+cheers,
+deccy.
+
+-- 
+---------------------------------------
+Declan Houlihan
+deccy@csn.ul.ie
+http://deccy.csn.ul.ie/
+---------------------------------------
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

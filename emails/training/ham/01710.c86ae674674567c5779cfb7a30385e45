@@ -1,3 +1,11 @@
+Return-Path: tim.one@comcast.net
+Delivery-Date: Sun Sep  8 00:22:18 2002
+From: tim.one@comcast.net (Tim Peters)
+Date: Sat, 07 Sep 2002 19:22:18 -0400
+Subject: [Spambayes] understanding high false negative rate
+In-Reply-To: <15738.24135.294137.640570@slothrop.zope.com>
+Message-ID: <LNBBLJKPBEHFEDALKOLCCENKBCAB.tim.one@comcast.net>
+
 [Jeremy Hylton]
 > Here's clarification of why I did:
 

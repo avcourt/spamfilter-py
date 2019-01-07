@@ -1,3 +1,11 @@
+Return-Path: tim.one@comcast.net
+Delivery-Date: Sun Sep  8 19:28:02 2002
+From: tim.one@comcast.net (Tim Peters)
+Date: Sun, 08 Sep 2002 14:28:02 -0400
+Subject: [Spambayes] testing results
+In-Reply-To: <20020908172113.GA26741@glacier.arctrix.com>
+Message-ID: <LNBBLJKPBEHFEDALKOLCOEPHBCAB.tim.one@comcast.net>
+
 [Neil Schemenauer]
 > These results are from timtest.py.  I've got three sets of spam and ham
 > with about 500 messages in each set.  Here's what happens when I enable

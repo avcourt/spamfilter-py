@@ -1,3 +1,11 @@
+Return-Path: tim.one@comcast.net
+Delivery-Date: Sun Sep  8 08:48:28 2002
+From: tim.one@comcast.net (Tim Peters)
+Date: Sun, 08 Sep 2002 03:48:28 -0400
+Subject: [Spambayes] test sets?
+In-Reply-To: <LNBBLJKPBEHFEDALKOLCGEOIBCAB.tim.one@comcast.net>
+Message-ID: <LNBBLJKPBEHFEDALKOLCEEOJBCAB.tim.one@comcast.net>
+
 [Tim]
 > ...
 > I'd prefer to strip HTML tags from everything, but last time I

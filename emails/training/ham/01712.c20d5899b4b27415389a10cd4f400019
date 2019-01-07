@@ -1,3 +1,11 @@
+Return-Path: tim.one@comcast.net
+Delivery-Date: Sun Sep  8 03:55:12 2002
+From: tim.one@comcast.net (Tim Peters)
+Date: Sat, 07 Sep 2002 22:55:12 -0400
+Subject: [Spambayes] test sets?
+In-Reply-To: <200209072019.g87KJGe15250@pcp02138704pcs.reston01.va.comcast.net>
+Message-ID: <LNBBLJKPBEHFEDALKOLCOEOBBCAB.tim.one@comcast.net>
+
 [Guido, on the classifier pickle on SF]
 > I downloaded and played with it a bit, but had no time to do anything
 > systematic.

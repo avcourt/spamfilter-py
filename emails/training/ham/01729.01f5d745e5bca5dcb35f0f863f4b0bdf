@@ -1,3 +1,11 @@
+Return-Path: tim.one@comcast.net
+Delivery-Date: Mon Sep  9 04:36:00 2002
+From: tim.one@comcast.net (Tim Peters)
+Date: Sun, 08 Sep 2002 23:36:00 -0400
+Subject: [Spambayes] testing results
+In-Reply-To: <20020909012051.GD27510@glacier.arctrix.com>
+Message-ID: <LNBBLJKPBEHFEDALKOLCCEAMBDAB.tim.one@comcast.net>
+
 [Neil Schemenauer]
 > Woops.  I didn't have the summary files so I regenerated them using a
 > slightly different set of data.  Here are the results of enabling the

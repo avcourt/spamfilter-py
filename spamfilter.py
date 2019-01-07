@@ -147,7 +147,6 @@ def file_tokens(filepath):
 def find_frequency(dir_name):
     big_list = []
     filenames = os.listdir(dir_name)  # array of filenames in directory
-    print(filenames)
     for f in filenames:
         big_list.extend(file_tokens(dir_name + f))
     return big_list

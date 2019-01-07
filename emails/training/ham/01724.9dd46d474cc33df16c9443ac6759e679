@@ -1,3 +1,11 @@
+Return-Path: tim.one@comcast.net
+Delivery-Date: Sun Sep  8 21:46:47 2002
+From: tim.one@comcast.net (Tim Peters)
+Date: Sun, 08 Sep 2002 16:46:47 -0400
+Subject: [Spambayes] hammie.py vs. GBayes.py
+In-Reply-To: <200209070351.g873pC613144@pcp02138704pcs.reston01.va.comcast.net>
+Message-ID: <LNBBLJKPBEHFEDALKOLCCEPOBCAB.tim.one@comcast.net>
+
 [Guido]
 > There seem to be two "drivers" for the classifier now: Neale Pickett's
 > hammie.py, and the original GBayes.py.  According to the README.txt,

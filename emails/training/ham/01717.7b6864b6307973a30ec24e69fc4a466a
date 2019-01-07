@@ -1,3 +1,13 @@
+Return-Path: skip@pobox.com
+Delivery-Date: Sun Sep  8 12:03:04 2002
+From: skip@pobox.com (Skip Montanaro)
+Date: Sun, 8 Sep 2002 06:03:04 -0500
+Subject: [Spambayes] spambayes package?
+In-Reply-To: <200209080247.g882lNt17033@pcp02138704pcs.reston01.va.comcast.net>
+References: <15738.34711.467756.145336@12-248-11-90.client.attbi.com>
+        <200209080247.g882lNt17033@pcp02138704pcs.reston01.va.comcast.net>
+Message-ID: <15739.11880.95033.293165@12-248-11-90.client.attbi.com>
+
 
     >> Before we get too far down this road, what do people think of
     >> creating a spambayes package containing classifier and tokenizer?

@@ -1,3 +1,11 @@
+Return-Path: tim.one@comcast.net
+Delivery-Date: Sun Sep  8 21:01:00 2002
+From: tim.one@comcast.net (Tim Peters)
+Date: Sun, 08 Sep 2002 16:01:00 -0400
+Subject: [Spambayes] test sets?
+In-Reply-To: <LNBBLJKPBEHFEDALKOLCEEOGBCAB.tim.one@comcast.net>
+Message-ID: <LNBBLJKPBEHFEDALKOLCCEPLBCAB.tim.one@comcast.net>
+
 [Tim]
 > One effect of getting rid of MINCOUNT is that it latches on more
 > strongly to rare clues now, and those can be unique to the corpus

@@ -1,3 +1,54 @@
+From secprog-return-485-jm=jmason.org@securityfocus.com  Fri Sep  6 11:38:51 2002
+Return-Path: <secprog-return-485-yyyy=example.com@securityfocus.com>
+Delivered-To: yyyy@localhost.example.com
+Received: from localhost (jalapeno [127.0.0.1])
+	by jmason.org (Postfix) with ESMTP id 983E216F6D
+	for <jm@localhost>; Fri,  6 Sep 2002 11:37:33 +0100 (IST)
+Received: from jalapeno [127.0.0.1]
+	by localhost with IMAP (fetchmail-5.9.0)
+	for jm@localhost (single-drop); Fri, 06 Sep 2002 11:37:33 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g869wcC29994 for
+    <jm@jmason.org>; Fri, 6 Sep 2002 10:58:38 +0100
+Received: from outgoing.securityfocus.com (outgoing3.securityfocus.com
+    [66.38.151.27]) by webnote.net (8.9.3/8.9.3) with ESMTP id UAA17986 for
+    <jm@jmason.org>; Thu, 5 Sep 2002 20:39:45 +0100
+Received: from lists.securityfocus.com (lists.securityfocus.com
+    [66.38.151.19]) by outgoing.securityfocus.com (Postfix) with QMQP id
+    26D1DA3106; Thu,  5 Sep 2002 10:42:53 -0600 (MDT)
+Mailing-List: contact secprog-help@securityfocus.com; run by ezmlm
+Precedence: bulk
+List-Id: <secprog.list-id.securityfocus.com>
+List-Post: <mailto:secprog@securityfocus.com>
+List-Help: <mailto:secprog-help@securityfocus.com>
+List-Unsubscribe: <mailto:secprog-unsubscribe@securityfocus.com>
+List-Subscribe: <mailto:secprog-subscribe@securityfocus.com>
+Delivered-To: mailing list secprog@securityfocus.com
+Delivered-To: moderator for secprog@securityfocus.com
+Received: (qmail 4920 invoked from network); 4 Sep 2002 23:14:36 -0000
+Message-Id: <3D76977B.9010606@wirex.com>
+Date: Wed, 04 Sep 2002 16:30:03 -0700
+From: Crispin Cowan <crispin@wirex.com>
+Organization: WireX Communications, Inc.
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.1) Gecko/20020827
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: Ben Mord <bmord@icon-nicholson.com>
+Cc: "Webappsec Securityfocus.Com" <webappsec@securityfocus.com>,
+	SECPROG Securityfocus <SECPROG@securityfocus.com>
+Subject: Re: use of base image / delta image for automated recovery from
+    attacks
+References: <NAEOJLMPJMJDFPLHIOJOMEGLDBAA.bmord@icon-nicholson.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, hits=-12.9 required=7.0
+	tests=AWL,EMAIL_ATTRIBUTION,KNOWN_MAILING_LIST,NOSPAM_INC,
+	      QUOTED_EMAIL_TEXT,REFERENCES,SIGNATURE_SHORT_DENSE,
+	      SPAM_PHRASE_08_13,USER_AGENT,USER_AGENT_MOZILLA_UA,
+	      X_ACCEPT_LANG
+	version=2.50-cvs
+X-Spam-Level: 
+
 Ben Mord wrote:
 
 >     -----Original Message-----
