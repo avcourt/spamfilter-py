@@ -1,15 +1,15 @@
+import math
 import os
 import re
-from collections import Counter
 import pprint as pp
-import math
+from collections import Counter
 
 
 class Spamfilter():
     """spam filter class which will accept training directory"""
 
     def __init__(self, training_dir):
-        print('Training filter with known ham...')
+        print('Training filter with known ham ...')
         self.ham_table = dict(Counter(find_frequency(training_dir + "ham/")))
         print('Training filter with known spam...')
         self.spam_table = dict(Counter(find_frequency(training_dir + 'spam/')))
@@ -26,6 +26,10 @@ class Spamfilter():
         self.ham_list = []
 
     def create_frequency_table(self):
+        """
+        :return:  dict{k,v}: frequency table with combined spam/ham frequencies
+         k = (str)token, v = {spam_freq: , ham_freq:, prob_spam:, prob_ham:}
+        """
         freq_table = {}
         for tok in self.tok_arr:
             entry = {}
@@ -79,25 +83,32 @@ class Spamfilter():
             self.ham_list.append(filepath)
             return False
 
-    def classify_all(self, dir_path, known_type):
+    def classify_all(self, dir_path, known_type='spam'):
+        """
+        :param dir_path:
+        :param known_type: str:
+        :return:
+        """
         self.ham_list = []
         self.spam_list = []
         self.file_count = 0
         self.count_spam = 0
         self.count_ham = 0
-        print("\nClassifying all emails found in directory: " + dir_path)
-        filenames = os.listdir(dir_path)
-        for f in filenames:
-            self.classify(dir_path + f)
+        print('\nClassifying all emails found in directory: ./' + dir_path)
 
-        if known_type == 'spam':
-            correct = self.count_spam/float(self.file_count)
-        else:
-            correct = self.count_ham/float(self.file_count)
+        try:
+            for f in os.listdir(dir_path):
+                self.classify(dir_path + f)
+                if known_type == 'spam':
+                    correct = self.count_spam / float(self.file_count)
+                else:
+                    correct = self.count_ham / float(self.file_count)
 
-        print('Total spam: \t' + str(self.count_spam))
-        print('Total ham:  \t' + str(self.count_ham))
-        print("Percentage correctly classified: " + str(correct*100))
+            print('Total spam:{:8d}'.format(self.count_spam))
+            print('Total ham: {:8d}'.format(self.count_ham))
+            print("Correctly classified: {:6.2f}%".format(correct * 100))
+        except FileNotFoundError as e:
+            print("ERROR: classify_all() failed " + str(e))
 
     def clean_table(self, min_freq):
         rm_keys = []
@@ -110,24 +121,22 @@ class Spamfilter():
             del self.freq_tab[k]
 
     def print_table_info(self):
-        print('\n\n=================================')
+        print('\n=======================================')
         print('TRAINING AND FREQUENCY TABLE INFO')
-        print("=================================")
-        print('Total unique tokens in all spam messages:' + str(len(self.spam_table)))
-        print('Total unique tokens in all ham messages:' + str(len(self.ham_table)))
-        print('Total unique tokens in all combined messages:' + str(len(self.freq_tab)))
-        print('Total number of spam mails: ' + str(len(os.listdir('emails/testing/spam/'))))
-        print('Total number of ham mails: ' + str(len(os.listdir('emails/testing/ham/'))))
+        print("=======================================")
+        print('Unique tokens in spam messages:{:8d}'.format(len(self.spam_table)))
+        print('Unique tokens in ham messages: {:8d}'.format(len(self.ham_table)))
+        print('Unique tokens in ALL messages: {:8d}'.format(len(self.freq_tab)))
+        print('Num spam e-mails:{:22d}'.format(len(os.listdir('emails/testing/spam/'))))
+        print('Num ham e-mails: {:22d}'.format(len(os.listdir('emails/testing/ham/'))))
 
 
+def tokens(in_str, tok_size=3):
+    return [in_str[i:i + tok_size] for i in range(len(in_str) - tok_size + 1)]
 
 
-def tokens(str, tok_size=3):
-    return [str[i:i+tok_size] for i in range(len(str) - tok_size + 1)]
-
-
-def clean_split(string):
-    return re.sub(r'[^\s\w]|_', '', string).lower().split()
+def clean_split(in_str):
+    return re.sub(r'[^\s\w]|_', '', in_str).lower().split()
 
 
 def file_tokens(filepath):
