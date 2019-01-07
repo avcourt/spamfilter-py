@@ -9,7 +9,9 @@ class Spamfilter():
     """spam filter class which will accept training directory"""
 
     def __init__(self, training_dir):
+        print('Training filter with known ham...')
         self.ham_table = dict(Counter(find_frequency(training_dir + "ham/")))
+        print('Training filter with known spam...')
         self.spam_table = dict(Counter(find_frequency(training_dir + 'spam/')))
         self.uniq_h_toks = len(self.ham_table)
         self.uniq_s_toks = len(self.spam_table)
@@ -84,7 +86,7 @@ class Spamfilter():
         self.count_spam = 0
         self.count_ham = 0
         print("\nClassifying all emails found in directory: " + dir_path)
-        filenames = os.listdir(dir_path)  # array of filenames in directory
+        filenames = os.listdir(dir_path)
         for f in filenames:
             self.classify(dir_path + f)
 
@@ -98,8 +100,6 @@ class Spamfilter():
         print("Percentage correctly classified: " + str(correct*100))
 
     def clean_table(self, min_freq):
-        old_num_tokens = len(self.freq_tab)
-
         rm_keys = []
         for k, v in self.freq_tab.items():
             if (v['spam_freq'] + v['ham_freq'] < min_freq or
@@ -110,18 +110,16 @@ class Spamfilter():
             del self.freq_tab[k]
 
     def print_table_info(self):
-        print("\n\nTRAINING AND FREQUENCY TABLE INFO")
-
-        print("``````````````````````````````````")
-        print("``````````````````````````````````")
-
+        print('\n\n=================================')
+        print('TRAINING AND FREQUENCY TABLE INFO')
+        print("=================================")
         print('Total unique tokens in all spam messages:' + str(len(self.spam_table)))
         print('Total unique tokens in all ham messages:' + str(len(self.ham_table)))
         print('Total unique tokens in all combined messages:' + str(len(self.freq_tab)))
         print('Total number of spam mails: ' + str(len(os.listdir('emails/testing/spam/'))))
         print('Total number of ham mails: ' + str(len(os.listdir('emails/testing/ham/'))))
-        # print('Total tokens in spam emails: %36d\n'', @ total_s_toks)
-        # print('Total tokens in ham emails:  %36d\n'', @ total_h_toks)
+
+
 
 
 def tokens(str, tok_size=3):
@@ -146,14 +144,14 @@ def file_tokens(filepath):
 
 def find_frequency(dir_name):
     big_list = []
-    filenames = os.listdir(dir_name)  # array of filenames in directory
+    filenames = os.listdir(dir_name)
     for f in filenames:
         big_list.extend(file_tokens(dir_name + f))
     return big_list
 
 
 spam_filter = Spamfilter('emails/training/')
-# spam_filter.clean_table(min_freq=4)
+spam_filter.print_table_info()
 spam_filter.classify_all("emails/testing/spam/", 'spam')
 spam_filter.classify_all("emails/testing/ham/", 'ham')
-spam_filter.print_table_info()
+
