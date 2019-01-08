@@ -9,6 +9,10 @@ class Spamfilter():
     """spam filter class which will accept training directory"""
 
     def __init__(self, training_dir):
+        """ inits Spamfilter with training data
+        :param training_dir: path of training directory with subdirectories
+         '/ham' and '/spam'
+        """
         print('Training filter with known ham ...')
         self.ham_table = dict(Counter(find_frequency(training_dir + "ham/")))
         print('Training filter with known spam...')
@@ -26,8 +30,8 @@ class Spamfilter():
         self.ham_list = []
 
     def create_frequency_table(self):
-        """
-        :return:  dict{k,v}: frequency table with combined spam/ham frequencies
+        """ Generates token frequency table from training emails
+        :return:  dict{k,v}:  spam/ham frequencies
          k = (str)token, v = {spam_freq: , ham_freq:, prob_spam:, prob_ham:}
         """
         freq_table = {}
@@ -45,6 +49,11 @@ class Spamfilter():
         return freq_table
 
     def get_prob_spam(self, token):
+        """
+
+        :param token: (str)
+        :return: (float) probability 'token' is spam based on training emails
+        """
         val = self.freq_tab.get(token)
         if val is not None:
             return val['prob_spam']
@@ -85,9 +94,9 @@ class Spamfilter():
 
     def classify_all(self, dir_path, known_type='spam'):
         """
-        :param dir_path:
-        :param known_type: str:
-        :return:
+        Classifies all emails in a testing directory and maintains count of errors
+        :param dir_path: path of testing directory
+        :param known_type: str: the known type of testing directory
         """
         self.ham_list = []
         self.spam_list = []
@@ -111,6 +120,11 @@ class Spamfilter():
             print("ERROR: classify_all() failed " + str(e))
 
     def clean_table(self, min_freq):
+        """
+        Removes entries from frequency table if they are deemed poor indicators.
+        or if combined spam/ham frequency is below 'min_freq'
+        :param min_freq: if total token count below threshold, delete from table
+        """
         rm_keys = []
         for k, v in self.freq_tab.items():
             if (v['spam_freq'] + v['ham_freq'] < min_freq or
@@ -121,6 +135,9 @@ class Spamfilter():
             del self.freq_tab[k]
 
     def print_table_info(self):
+        """
+        Print training info
+        """
         print('\n=======================================')
         print('TRAINING AND FREQUENCY TABLE INFO')
         print("=======================================")
