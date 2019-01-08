@@ -1,12 +1,11 @@
 import math
 import os
 import re
-import pprint as pp
 from collections import Counter
 
 
 class Spamfilter():
-    """spam filter class which will accept training directory"""
+    """A naive Bayesian spam filter"""
 
     def __init__(self, training_dir):
         """ inits Spamfilter with training data
@@ -14,9 +13,9 @@ class Spamfilter():
          '/ham' and '/spam'
         """
         print('Training filter with known ham ...')
-        self.ham_table = dict(Counter(find_frequency(training_dir + "ham/")))
+        self.ham_table = dict(Counter(dir_tokens(training_dir + "ham/")))
         print('Training filter with known spam...')
-        self.spam_table = dict(Counter(find_frequency(training_dir + 'spam/')))
+        self.spam_table = dict(Counter(dir_tokens(training_dir + 'spam/')))
         self.uniq_h_toks = len(self.ham_table)
         self.uniq_s_toks = len(self.spam_table)
         self.total_h_toks = sum(self.ham_table.values())
@@ -48,9 +47,8 @@ class Spamfilter():
             freq_table[tok] = entry
         return freq_table
 
-    def get_prob_spam(self, token):
-        """
-
+    def prob_spam(self, token):
+        """calculates the probability that 'token' is found in spam emails
         :param token: (str)
         :return: (float) probability 'token' is spam based on training emails
         """
@@ -60,7 +58,11 @@ class Spamfilter():
         else:
             return (1.0 / self.uniq_s_toks) / (self.total_s_toks + 1)
 
-    def get_prob_ham(self, token):
+    def prob_ham(self, token):
+        """calculates the probability that 'token' is found in ham emails
+        :param token: (str)
+        :return: (float) probability 'token' is ham based on training emails
+        """
         val = self.freq_tab.get(token)
         if val is not None:
             return val['prob_ham']
@@ -68,20 +70,32 @@ class Spamfilter():
             return (1.0 / self.uniq_h_toks) / (self.total_h_toks + 1)
 
     def prob_msg_spam(self, filepath):
-        tokens = file_tokens(filepath)
+        """Calculates the probability that a message is spam
+        :param filepath: (str) path of email
+        :return: (float) probability message is spam
+        """
+        toks = file_tokens(filepath)
         sm = 0
-        for tok in tokens:
-            sm += math.log10(self.get_prob_spam(tok))
+        for tok in toks:
+            sm += math.log10(self.prob_spam(tok))
         return sm
 
     def prob_msg_ham(self, filepath):
-        tokens = file_tokens(filepath)
+        """Calculates the probability that a message is ham
+        :param filepath: (str) path of email
+        :return: (float) probability message is ham
+        """
+        toks = file_tokens(filepath)
         sm = 0
-        for tok in tokens:
-            sm += math.log10(self.get_prob_ham(tok))
+        for tok in toks:
+            sm += math.log10(self.prob_ham(tok))
         return sm
 
     def classify(self, filepath):
+        """classifies a file as spam or ham based on training data
+        :param filepath:
+        :return: (boolean) True->spam, False->ham
+        """
         self.file_count += 1
         if self.prob_msg_spam(filepath) > self.prob_msg_ham(filepath):
             self.count_spam += 1
@@ -93,8 +107,7 @@ class Spamfilter():
             return False
 
     def classify_all(self, dir_path, known_type='spam'):
-        """
-        Classifies all emails in a testing directory and maintains count of errors
+        """Classifies all emails in a testing directory and maintains count of errors
         :param dir_path: path of testing directory
         :param known_type: str: the known type of testing directory
         """
@@ -120,8 +133,7 @@ class Spamfilter():
             print("ERROR: classify_all() failed " + str(e))
 
     def clean_table(self, min_freq):
-        """
-        Removes entries from frequency table if they are deemed poor indicators.
+        """Removes entries from frequency table if they are deemed poor indicators.
         or if combined spam/ham frequency is below 'min_freq'
         :param min_freq: if total token count below threshold, delete from table
         """
@@ -135,9 +147,8 @@ class Spamfilter():
             del self.freq_tab[k]
 
     def print_table_info(self):
-        """
-        Print training info
-        """
+        """ Print training info:
+            - unique tokens in ham and spam, number of emails in training set"""
         print('\n=======================================')
         print('TRAINING AND FREQUENCY TABLE INFO')
         print("=======================================")
@@ -148,15 +159,29 @@ class Spamfilter():
         print('Num ham e-mails: {:22d}'.format(len(os.listdir('emails/testing/ham/'))))
 
 
-def tokens(in_str, tok_size=3):
-    return [in_str[i:i + tok_size] for i in range(len(in_str) - tok_size + 1)]
+def tokens(text, tok_size=3):
+    """ Returns a list of all substrings contained in 'text' of size 'tok_size'
+    :param text: (string) text to tokenize
+    :param tok_size: length of substrings
+    :return: (list) tokens of 'text'
+    """
+    return [text[i:i + tok_size] for i in range(len(text) - tok_size + 1)]
 
 
 def clean_split(in_str):
+    """ Removes all non-alphanum chars and splits string at whitespace, downcase
+    :param in_str: (str) target string
+    :return: (list) cleaned strings
+    """
     return re.sub(r'[^\s\w]|_', '', in_str).lower().split()
 
 
 def file_tokens(filepath):
+    """ tokenizes all strings contained in 'filepath' after removing
+     all non-alphanum chars and splitting strings at whitespace
+    :param filepath: path of target file
+    :return: list of tokens
+    """
     toks = []
     try:
         with open(filepath, encoding="utf8", errors='ignore') as fp:
@@ -168,16 +193,25 @@ def file_tokens(filepath):
     return [x for x in toks if len(x) < 10]
 
 
-def find_frequency(dir_name):
-    big_list = []
-    filenames = os.listdir(dir_name)
-    for f in filenames:
-        big_list.extend(file_tokens(dir_name + f))
-    return big_list
+def dir_tokens(dir_path):
+    """ tokenizes all files contained in 'dir_path'
+    :param dir_path: directory containing files to be tokenized
+    :return: list of tokens
+    """
+    dir_toks = []
+    try:
+        filenames = os.listdir(dir_path)
+        for f in filenames:
+            dir_toks.extend(file_tokens(dir_path + f))
+    except FileNotFoundError as e:
+        print("Error:" + str(e))
+    return dir_toks
 
 
-spam_filter = Spamfilter('emails/training/')
-spam_filter.print_table_info()
-spam_filter.classify_all("emails/testing/spam/", 'spam')
-spam_filter.classify_all("emails/testing/ham/", 'ham')
+if __name__ == "__main__":
+    spam_filter = Spamfilter('emails/training/')
+    spam_filter.print_table_info()
+    spam_filter.classify_all("emails/testing/spam/", 'spam')
+    spam_filter.classify_all("emails/testing/ham/", 'ham')
 
+# dir_tokens('safas')
