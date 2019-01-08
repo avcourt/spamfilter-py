@@ -213,5 +213,3 @@ if __name__ == "__main__":
     spam_filter.print_table_info()
     spam_filter.classify_all("emails/testing/spam/", 'spam')
     spam_filter.classify_all("emails/testing/ham/", 'ham')
-
-# dir_tokens('safas')
