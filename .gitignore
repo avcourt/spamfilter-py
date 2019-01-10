@@ -1,2 +1,4 @@
 emails/
 .idea/
+venv/
+__pycache__
