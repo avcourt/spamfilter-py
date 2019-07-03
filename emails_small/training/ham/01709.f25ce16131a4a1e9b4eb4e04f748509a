@@ -1,5 +1,0 @@
-Before we get too far down this road, what do people think of creating a
-spambayes package containing classifier and tokenizer?  This is just to
-minimize clutter in site-packages.
-
-Skip
