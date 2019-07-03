@@ -31,7 +31,7 @@ class Spamfilter():
     def create_frequency_table(self):
         """ Generates token frequency table from training emails
         :return:  dict{k,v}:  spam/ham frequencies
-         k = (str)token, v = {spam_freq: , ham_freq:, prob_spam:, prob_ham:}
+        k = (str)token, v = {spam_freq: , ham_freq:, prob_spam:, prob_ham:}
         """
         freq_table = {}
         for tok in self.tok_arr:
@@ -177,7 +177,7 @@ def clean_split(in_str):
 
 
 def file_tokens(filepath):
-    """ tokenizes all strings contained in 'filepath' after removing
+    """ tokenizes all strings contained in 'filepath' after removing \
      all non-alphanum chars and splitting strings at whitespace
     :param filepath: path of target file
     :return: list of tokens
