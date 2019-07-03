@@ -9,6 +9,7 @@ class Spamfilter():
 
     def __init__(self, training_dir):
         """ inits Spamfilter with training data
+        
         :param training_dir: path of training directory with subdirectories
          '/ham' and '/spam'
         """
@@ -49,6 +50,7 @@ class Spamfilter():
 
     def prob_spam(self, token):
         """calculates the probability that 'token' is found in spam emails
+
         :param token: (str)
         :return: (float) probability 'token' is spam based on training emails
         """
@@ -60,6 +62,7 @@ class Spamfilter():
 
     def prob_ham(self, token):
         """calculates the probability that 'token' is found in ham emails
+
         :param token: (str)
         :return: (float) probability 'token' is ham based on training emails
         """
@@ -71,6 +74,7 @@ class Spamfilter():
 
     def prob_msg_spam(self, filepath):
         """Calculates the probability that a message is spam
+
         :param filepath: (str) path of email
         :return: (float) probability message is spam
         """
@@ -82,6 +86,7 @@ class Spamfilter():
 
     def prob_msg_ham(self, filepath):
         """Calculates the probability that a message is ham
+
         :param filepath: (str) path of email
         :return: (float) probability message is ham
         """
@@ -93,6 +98,7 @@ class Spamfilter():
 
     def classify(self, filepath):
         """classifies a file as spam or ham based on training data
+
         :param filepath:
         :return: (boolean) True->spam, False->ham
         """
@@ -108,6 +114,7 @@ class Spamfilter():
 
     def classify_all(self, dir_path, known_type='spam'):
         """Classifies all emails in a testing directory and maintains count of errors
+
         :param dir_path: path of testing directory
         :param known_type: str: the known type of testing directory
         """
@@ -135,6 +142,7 @@ class Spamfilter():
     def clean_table(self, min_freq):
         """Removes entries from frequency table if they are deemed poor indicators.
         or if combined spam/ham frequency is below 'min_freq'
+
         :param min_freq: if total token count below threshold, delete from table
         """
         rm_keys = []
@@ -161,6 +169,7 @@ class Spamfilter():
 
 def tokens(text, tok_size=3):
     """ Returns a list of all substrings contained in 'text' of size 'tok_size'
+
     :param text: (string) text to tokenize
     :param tok_size: length of substrings
     :return: (list) tokens of 'text'
@@ -170,6 +179,7 @@ def tokens(text, tok_size=3):
 
 def clean_split(in_str):
     """ Removes all non-alphanum chars and splits string at whitespace, downcase
+
     :param in_str: (str) target string
     :return: (list) cleaned strings
     """
@@ -179,6 +189,7 @@ def clean_split(in_str):
 def file_tokens(filepath):
     """ tokenizes all strings contained in 'filepath' after removing \
      all non-alphanum chars and splitting strings at whitespace
+
     :param filepath: path of target file
     :return: list of tokens
     """
@@ -195,6 +206,7 @@ def file_tokens(filepath):
 
 def dir_tokens(dir_path):
     """ tokenizes all files contained in 'dir_path'
+
     :param dir_path: directory containing files to be tokenized
     :return: list of tokens
     """
