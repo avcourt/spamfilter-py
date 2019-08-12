@@ -1,8 +1,0 @@
-[Tim]
-> ...
-> On my box the current system scores about 50 msgs per second (starting
-> in memory, of course).
-
-That was a guess.  Bothering to get a clock out, it was more like 80 per
-second.  See?  A 60% speedup without changing a thing <wink>.
-
