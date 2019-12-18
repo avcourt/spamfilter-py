@@ -59,8 +59,8 @@ class Spamfilter:
         val = self.freq_tab.get(token)
         if val is not None:
             return val["prob_spam"]
-        else:
-            return (1.0 / self.uniq_s_toks) / (self.total_s_toks + 1)
+       
+        return (1.0 / self.uniq_s_toks) / (self.total_s_toks + 1)
 
     def prob_ham(self, token):
         """calculates the probability that 'token' is found in ham emails
@@ -71,8 +71,8 @@ class Spamfilter:
         val = self.freq_tab.get(token)
         if val is not None:
             return val["prob_ham"]
-        else:
-            return (1.0 / self.uniq_h_toks) / (self.total_h_toks + 1)
+    
+        return (1.0 / self.uniq_h_toks) / (self.total_h_toks + 1)
 
     def prob_msg_spam(self, filepath):
         """Calculates the probability that a message is spam
@@ -225,7 +225,7 @@ def dir_tokens(dir_path):
 
 
 if __name__ == "__main__":
-    spam_filter = Spamfilter("emails/training/")
-    spam_filter.print_table_info()
-    spam_filter.classify_all("emails/testing/spam/", "spam")
-    spam_filter.classify_all("emails/testing/ham/", "ham")
+    spamfilter = Spamfilter("emails/training/")
+    spamfilter.print_table_info()
+    spamfilter.classify_all("emails/testing/spam/", "spam")
+    spamfilter.classify_all("emails/testing/ham/", "ham")
